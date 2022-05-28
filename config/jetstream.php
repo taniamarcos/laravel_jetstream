@@ -56,11 +56,11 @@ return [
     | these features or you can even remove all of these if you need to.
     |
     */
-
+//8YIIC7hDHqblSOgIrwWIYTailpY0XZJhpzeMHuvS
     'features' => [
-        // Features::termsAndPrivacyPolicy(),
-        // Features::profilePhotos(),
-        // Features::api(),
+         Features::termsAndPrivacyPolicy(),
+         Features::profilePhotos(),
+         Features::api(),
         Features::teams(['invitations' => true]),
         Features::accountDeletion(),
     ],
